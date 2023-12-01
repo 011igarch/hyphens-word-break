@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: 'Roboto',
+          sans-serif;
+        max-width: 900px;
+        margin-inline: auto;
+        line-height: 1.6;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+      h1 {
+        column-span: all;
+      }
+      p {
+        column-count: 2;
+        column-gap: 3rem;
+        column-rule: 1px solid silver;
+        font-size: 18px;
+      }
+      .hyphen {
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        hyphens: auto;
+        text-align: justify;
+        position: relative;
+      }
+      
+      .normal {
+        /* max-width: 70%; */
+        text-align: justify;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hyphens & Word-Break</h1>
+    <p class="hyphen">
+      Hallo. Ich bin ein kleiner Blindtext. Und zwar schon so lange ich denken
+      kann. Es war nicht leicht zu verstehen, was es bedeutet, ein blinder Text
+      zu sein: Man ergibt keinen Sinn. Wirklich keinen Sinn. Man wird
+      zusammenhangslos eingeschoben und rumgedreht – und oftmals gar nicht erst
+      gelesen. Aber bin ich allein deshalb ein schlechterer Text als andere? Na
+      gut, ich werde nie in den Bestsellerlisten stehen. Aber andere Texte
+      schaffen das auch nicht. Und darum stört es mich nicht besonders blind zu
+      sein. Und sollten Sie diese Zeilen noch immer lesen, so habe ich als
+      kleiner Blindtext etwas geschafft, wovon all die richtigen und wichtigen
+      Texte meist nur träumen.
+    </p>
+    <p class="normal">
+      Hallo. Ich bin ein kleiner Blindtext. Und zwar schon so lange ich denken
+      kann. Es war nicht leicht zu verstehen, was es bedeutet, ein blinder Text
+      zu sein: Man ergibt keinen Sinn. Wirklich keinen Sinn. Man wird
+      zusammenhangslos eingeschoben und rumgedreht – und oftmals gar nicht erst
+      gelesen. Aber bin ich allein deshalb ein schlechterer Text als andere? Na
+      gut, ich werde nie in den Bestsellerlisten stehen. Aber andere Texte
+      schaffen das auch nicht. Und darum stört es mich nicht besonders blind zu
+      sein. Und sollten Sie diese Zeilen noch immer lesen, so habe ich als
+      kleiner Blindtext etwas geschafft, wovon all die richtigen und wichtigen
+      Texte meist nur träumen.
+    </p>
+  </body>
+</html>
